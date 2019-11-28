@@ -10,7 +10,7 @@ public class WizardTest {
 
     @Before
     public void before(){
-        wizard = new Wizard("Radagast", 50, 50);
+        wizard = new Wizard("Radagast", 50, 500);
     }
     @Test
     public void hasName(){
@@ -24,7 +24,7 @@ public class WizardTest {
 
     @Test
     public void hasHp(){
-        assertEquals(50, wizard.getHp());
+        assertEquals(500, wizard.getHp());
     }
 
     @Test

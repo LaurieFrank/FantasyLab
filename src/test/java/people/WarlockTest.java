@@ -10,7 +10,7 @@ public class WarlockTest {
 
     @Before
     public void before(){
-        warlock = new Warlock("Gandalf", 50, 70);
+        warlock = new Warlock("Gandalf", 50, 700);
     }
     @Test
     public void hasName(){
@@ -24,7 +24,7 @@ public class WarlockTest {
 
     @Test
     public void hasHp(){
-        assertEquals(70, warlock.getHp());
+        assertEquals(700, warlock.getHp());
     }
 
     @Test

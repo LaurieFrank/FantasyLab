@@ -10,7 +10,7 @@ public class KnightTest {
 
     @Before
     public void before(){
-        knight = new Knight("Aragon", 70, 40);
+        knight = new Knight("Aragon", 70, 400);
     }
     @Test
     public void hasName(){
@@ -24,7 +24,7 @@ public class KnightTest {
 
     @Test
     public void hasHp(){
-        assertEquals(40, knight.getHp());
+        assertEquals(400, knight.getHp());
     }
 
     @Test

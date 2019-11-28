@@ -10,7 +10,7 @@ public class ClericTest {
 
     @Before
     public void before(){
-        cleric = new Cleric("Friar Tuck", 30, 40);
+        cleric = new Cleric("Friar Tuck", 30, 400);
     }
     @Test
     public void hasName(){
@@ -24,7 +24,7 @@ public class ClericTest {
 
     @Test
     public void hasHp(){
-        assertEquals(40, cleric.getHp());
+        assertEquals(400, cleric.getHp());
     }
 
     @Test

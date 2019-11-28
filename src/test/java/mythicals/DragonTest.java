@@ -10,7 +10,7 @@ public class DragonTest {
 
     @Before
     public void before(){
-        dragon = new Dragon("Smaug", 100, 100, 1.5d);
+        dragon = new Dragon("Smaug", 100, 1000, 1.5d);
     }
     @Test
     public void hasName(){
@@ -24,7 +24,7 @@ public class DragonTest {
 
     @Test
     public void hasHp(){
-        assertEquals(100, dragon.getHp());
+        assertEquals(1000, dragon.getHp());
     }
 
     @Test

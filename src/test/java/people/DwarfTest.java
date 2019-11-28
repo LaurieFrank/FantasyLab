@@ -10,7 +10,7 @@ public class DwarfTest {
 
     @Before
     public void before(){
-        dwarf = new Dwarf("Gimli", 60, 70);
+        dwarf = new Dwarf("Gimli", 60, 700);
     }
     @Test
     public void hasName(){
@@ -24,7 +24,7 @@ public class DwarfTest {
 
     @Test
     public void hasHp(){
-        assertEquals(70, dwarf.getHp());
+        assertEquals(700, dwarf.getHp());
     }
 
     @Test

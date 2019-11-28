@@ -10,7 +10,7 @@ public class TrollTest {
 
     @Before
     public void before(){
-        troll = new Troll("Grawp", 100, 100, 0.5d);
+        troll = new Troll("Grawp", 100, 1000, 0.5d);
     }
     @Test
     public void hasName(){
@@ -24,7 +24,7 @@ public class TrollTest {
 
     @Test
     public void hasHp(){
-        assertEquals(100, troll.getHp());
+        assertEquals(1000, troll.getHp());
     }
 
     @Test
