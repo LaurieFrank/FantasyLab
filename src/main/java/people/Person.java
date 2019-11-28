@@ -4,9 +4,9 @@ public abstract class Person {
     private String name;
     private int strength;
     private int hp;
-    private boolean isMagical;
-    private boolean canFight;
-    private boolean canHeal;
+    protected boolean isMagical;
+    protected boolean canFight;
+    protected boolean canHeal;
 
     public Person(String name, int strength, int hp){
         this.name = name;
@@ -28,4 +28,17 @@ public abstract class Person {
     public int getHp(){
         return hp;
     }
+
+    public boolean canFight(){
+        return canFight;
+    }
+
+    public boolean canHeal(){
+        return canHeal;
+    }
+
+    public boolean isMagical(){
+        return isMagical;
+    }
+
 }
