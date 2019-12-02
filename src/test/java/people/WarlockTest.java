@@ -1,5 +1,6 @@
 package people;
 
+import equipment.*;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -7,10 +8,13 @@ import static org.junit.Assert.assertEquals;
 
 public class WarlockTest {
     Warlock warlock;
+    Inventory inventory;
 
     @Before
     public void before(){
-        warlock = new Warlock("Gandalf", 50, 700);
+
+        inventory = new Inventory(Armour.NONE, Magic.LIGHTNING, Weapons.NONE, Heal.NONE);
+        warlock = new Warlock("Gandalf", 50, 700, inventory);
     }
     @Test
     public void hasName(){
@@ -37,4 +41,8 @@ public class WarlockTest {
         assertEquals(true, warlock.isMagical());
     }
 
+    @Test
+    public void hasMagic(){
+        assertEquals(Magic.LIGHTNING, warlock.getMagic());
+    }
 }

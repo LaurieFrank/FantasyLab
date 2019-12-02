@@ -1,10 +1,11 @@
 package equipment;
 
 public enum Weapons {
-    SWORD(3),
-    BOW(2),
-    AXE(4),
-    DAGGER(1);
+    SWORD(4),
+    BOW(3),
+    AXE(5),
+    DAGGER(2),
+    NONE(1);
 
     private final int damage;
 

@@ -1,9 +1,15 @@
 package people;
 
-public class Wizard extends Person {
+import equipment.Inventory;
+import equipment.Magic;
 
-    public Wizard(String name, int strength, int hp) {
-        super(name, strength, hp);
+import java.util.ArrayList;
+
+public class Wizard extends Magicians {
+
+    public Wizard(String name, int strength, int hp, Inventory inventory) {
+        super(name, strength, hp, inventory);
         this.isMagical = true;
+        this.inventory = inventory;
     }
 }

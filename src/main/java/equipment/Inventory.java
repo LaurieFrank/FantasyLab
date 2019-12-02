@@ -4,11 +4,13 @@ public class Inventory {
     private Armour armour;
     private Magic magic;
     private Weapons weapon;
+    private Heal heal;
 
-    public Inventory(Armour armour, Magic magic, Weapons weapon){
+    public Inventory(Armour armour, Magic magic, Weapons weapon, Heal heal){
         this.armour = armour;
         this.magic = magic;
         this.weapon = weapon;
+        this.heal = heal;
     }
 
     public Weapons getWeapon(){
@@ -23,6 +25,8 @@ public class Inventory {
         return this.magic;
     }
 
+    public Heal getHealing(){ return this.heal; }
+
     public int getWeaponDamage(){
         return this.weapon.getWeaponDamage();
     }
@@ -34,4 +38,6 @@ public class Inventory {
     public int getMagicDamage(){
         return this.magic.getMagicDamage();
     }
+
+    public int getHealingAmount(){ return this.heal.getHealingAmount();}
 }

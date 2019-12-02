@@ -13,12 +13,12 @@ public class InventoryTest {
 
     @Before
     public void before(){
-        inventory = new Inventory(Armour.HEAVY_ARMOUR, Magic.FIREBALL, Weapons.AXE);
+        inventory = new Inventory(Armour.HEAVY_ARMOUR, Magic.FIREBALL, Weapons.AXE, Heal.HERB);
     }
 
     @Test
     public void getWeaponDamage(){
-        assertEquals(4, inventory.getWeaponDamage());
+        assertEquals(5, inventory.getWeaponDamage());
     }
 
     @Test

@@ -2,33 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c9cc4df-fd7b-447a-af19-3c0c30879e24" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/behaviours/IWeapon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/equipment/Armour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/equipment/Inventory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/equipment/Magic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/equipment/Weapons.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/items/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rooms/Dungeon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/equipment/InventoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/rooms/DungeonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/equipment/Heal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/people/Healers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/people/Humans.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/people/Magicians.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FantasyLab.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/equipment/Armour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/equipment/Armour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/equipment/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/equipment/Inventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/equipment/Magic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/equipment/Magic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/equipment/Weapons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/equipment/Weapons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/items/Item.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/people/Barbarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/people/Barbarian.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/people/Cleric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/people/Cleric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/people/Dwarf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/people/Dwarf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/people/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/people/Knight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/people/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/people/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/mythicals/DragonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mythicals/DragonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/mythicals/TrollTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mythicals/TrollTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/people/Warlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/people/Warlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/people/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/people/Wizard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/equipment/InventoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/equipment/InventoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/people/BarbarianTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/people/BarbarianTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/people/ClericTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/people/ClericTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/people/DwarfTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/people/DwarfTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/people/KnightTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/people/KnightTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/people/WarlockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/people/WarlockTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/people/WizardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/people/WizardTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/equipment/Armour.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/equipment/Armour.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/equipment/Inventory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/equipment/Inventory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/equipment/Magic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/equipment/Magic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/equipment/Weapons.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/equipment/Weapons.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/items/Item.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/people/Barbarian.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/people/Barbarian.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/people/Cleric.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/people/Dwarf.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/people/Knight.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/people/Cleric.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/people/Cleric.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/people/Dwarf.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/people/Dwarf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/people/Knight.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/people/Knight.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/people/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/people/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/people/Warlock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/people/Wizard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/people/Warlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/people/Warlock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/people/Wizard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/people/Wizard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/equipment/InventoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/equipment/InventoryTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/people/BarbarianTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/people/BarbarianTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/people/ClericTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/people/ClericTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/people/DwarfTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/people/DwarfTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/people/KnightTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/people/KnightTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/people/WarlockTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/people/WarlockTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/people/WizardTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/people/WizardTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,8 +57,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -61,10 +78,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="equipment" />
       <recent name="items" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -83,7 +101,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in FantasyLab">
+  <component name="RunManager" selected="JUnit.BarbarianTest.defend">
     <configuration name="All in FantasyLab" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FantasyLab" />
       <option name="PACKAGE_NAME" value="" />
@@ -92,7 +110,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BarbarianTest.hasArmour" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BarbarianTest.attack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FantasyLab" />
       <extension name="coverage">
         <pattern>
@@ -102,7 +120,39 @@
       </extension>
       <option name="PACKAGE_NAME" value="people" />
       <option name="MAIN_CLASS_NAME" value="people.BarbarianTest" />
-      <option name="METHOD_NAME" value="hasArmour" />
+      <option name="METHOD_NAME" value="attack" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BarbarianTest.defend" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FantasyLab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="people.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="people" />
+      <option name="MAIN_CLASS_NAME" value="people.BarbarianTest" />
+      <option name="METHOD_NAME" value="defend" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BarbarianTest.getAttackPower" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FantasyLab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="people.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="people" />
+      <option name="MAIN_CLASS_NAME" value="people.BarbarianTest" />
+      <option name="METHOD_NAME" value="getAttackPower" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -124,44 +174,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DungeonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FantasyLab" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="rooms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="rooms" />
-      <option name="MAIN_CLASS_NAME" value="rooms.DungeonTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InventoryTest.getWeaponDamage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FantasyLab" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="equipment.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="equipment" />
-      <option name="MAIN_CLASS_NAME" value="equipment.InventoryTest" />
-      <option name="METHOD_NAME" value="getWeaponDamage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BarbarianTest.defend" />
+        <item itemvalue="JUnit.BarbarianTest.attack" />
+        <item itemvalue="JUnit.BarbarianTest.getAttackPower" />
         <item itemvalue="JUnit.All in FantasyLab" />
-        <item itemvalue="JUnit.BarbarianTest.hasArmour" />
         <item itemvalue="JUnit.BarbarianTest.hasWeapon" />
-        <item itemvalue="JUnit.InventoryTest.getWeaponDamage" />
-        <item itemvalue="JUnit.DungeonTest" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +202,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

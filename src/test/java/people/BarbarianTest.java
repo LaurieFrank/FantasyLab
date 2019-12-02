@@ -1,9 +1,6 @@
 package people;
 
-import equipment.Armour;
-import equipment.Inventory;
-import equipment.Magic;
-import equipment.Weapons;
+import equipment.*;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -16,8 +13,8 @@ public class BarbarianTest {
     @Before
     public void before(){
 
-        barbarian = new Barbarian("Mudface", 40, 800, Weapons.AXE, Armour.HEAVY_ARMOUR);
-        inventory = new Inventory(Armour.HEAVY_ARMOUR, Magic.FIREBALL, Weapons.AXE);
+        inventory = new Inventory(Armour.SHIELD, Magic.NONE, Weapons.AXE, Heal.NONE);
+        barbarian = new Barbarian("Mudface", 40, 800, inventory);
     }
     @Test
     public void hasName(){
@@ -41,14 +38,20 @@ public class BarbarianTest {
 
     @Test
     public void hasWeapon(){
-        barbarian.equipWeapon(inventory);
         assertEquals(Weapons.AXE, barbarian.getWeapon());
     }
 
     @Test
-    public void hasArmour(){
-        barbarian.equipArmour(inventory);
-        assertEquals(Armour.HEAVY_ARMOUR, barbarian.getArmour());
+    public void getAttackPower(){
+        assertEquals(0, barbarian.getAttackPower());
     }
+//    @Test
+//    public void attack(){
+//        assertEquals(200, barbarian.getAttackPower());
+//    }
 
+    @Test
+    public void defend(){
+        assertEquals(2400, barbarian.getHp());
+    }
 }

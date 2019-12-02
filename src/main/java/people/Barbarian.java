@@ -7,49 +7,33 @@ import equipment.Weapons;
 
 import java.util.ArrayList;
 
-public class Barbarian extends Person implements IWeapon {
+public class Barbarian extends Humans implements IWeapon {
 
-    private Weapons weapon;
-    private Armour armour;
+    public int attackPower;
+    public int defendPower;
 
-
-    public Barbarian(String name, int strength, int hp, Weapons weapon, Armour armour) {
-        super(name, strength, hp);
+    public Barbarian(String name, int strength, int hp, Inventory inventory) {
+        super(name, strength, hp, inventory);
         this.canFight = true;
-        this.inventory = new ArrayList<Inventory>();
-        this.weapon = weapon;
-        this.armour = armour;
+        this.inventory = inventory;
+        this.attackPower = 0;
+    }
+
+    public int getAttackPower(){
+        return this.attackPower;
     }
 
     public int attack() {
-        return 0;
+//        if (canFight = true) {
+        int attackPower = getStrength() * inventory.getWeaponDamage();
+//        }
+        return attackPower;
+
     }
 
     public int defend() {
-        return 0;
+            int defendPower = inventory.getArmourProtection() * this.hp;
+            return this.hp = defendPower;
     }
 
-    public void equipWeapon(Inventory weapon){
-        for (Inventory newWeapon : inventory){
-            if (weapon == newWeapon){
-                this.weapon = weapon.getWeapon();
-            }
-        }
-    }
-
-    public Weapons getWeapon(){
-        return this.weapon;
-    }
-
-    public void equipArmour(Inventory armour){
-        for (Inventory newArmour : inventory){
-            if (armour == newArmour){
-                this.armour = armour.getArmour();
-            }
-        }
-    }
-
-    public Armour getArmour(){
-        return this.armour;
-    }
 }

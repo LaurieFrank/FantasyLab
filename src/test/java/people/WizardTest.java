@@ -1,5 +1,6 @@
 package people;
 
+import equipment.*;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -7,10 +8,13 @@ import static org.junit.Assert.assertEquals;
 
 public class WizardTest {
     Wizard wizard;
+    Inventory inventory;
 
     @Before
     public void before(){
-        wizard = new Wizard("Radagast", 50, 500);
+
+        inventory = new Inventory(Armour.NONE, Magic.FIREBALL, Weapons.NONE, Heal.NONE);
+        wizard = new Wizard("Radagast", 50, 500, inventory);
     }
     @Test
     public void hasName(){
@@ -32,4 +36,8 @@ public class WizardTest {
         assertEquals(true, wizard.isMagical());
     }
 
+    @Test
+    public void hasMagic(){
+        assertEquals(Magic.FIREBALL, wizard.getMagic());
+    }
 }

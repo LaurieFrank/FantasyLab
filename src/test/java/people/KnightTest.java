@@ -1,5 +1,6 @@
 package people;
 
+import equipment.*;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -7,10 +8,13 @@ import static org.junit.Assert.assertEquals;
 
 public class KnightTest {
     Knight knight;
+    Inventory inventory;
 
     @Before
     public void before(){
-        knight = new Knight("Aragon", 70, 400);
+
+        inventory = new Inventory(Armour.LIGHT_ARMOUR, Magic.NONE, Weapons.SWORD, Heal.NONE);
+        knight = new Knight("Aragon", 70, 400, inventory);
     }
     @Test
     public void hasName(){
@@ -32,4 +36,13 @@ public class KnightTest {
         assertEquals(true, knight.canFight());
     }
 
+    @Test
+    public void hasWeapon(){
+        assertEquals(Weapons.SWORD, knight.getWeapon());
+    }
+
+    @Test
+    public void hasArmour(){
+        assertEquals(Armour.LIGHT_ARMOUR, knight.getArmour());
+    }
 }
